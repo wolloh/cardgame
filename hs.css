@@ -1,0 +1,124 @@
+
+body {
+    background-color:#A9A9A9;  
+    margin: 0; 
+}
+button {
+    border: 0;
+	box-shadow: 3px 3px 3px #222;
+	color: #222; 
+	cursor: pointer;
+	font-size: 25px; 
+	margin: 30px auto;
+	padding: 10px 0;
+	width: 170px; 
+}
+button:hover {
+    background-color:aquamarine;
+}
+h1 {
+    font-size: 40px; 
+	font-weight: bolder;
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+img {
+    object-fit:contain;
+}
+.playersdeck {
+    text-align: left;
+}
+.playercards {
+display: flex;
+}
+.defensecardspl {
+    display: flex;
+    margin-left:100px;
+}
+.attackingcardpl {
+    margin-left: 40px;
+    width: 200px;
+    height: 250px;
+}
+.attackingcardcomp{
+    margin-left: 40px;
+    width: 200px;
+    height: 250px;
+}
+.compcards {
+    display: flex;
+    justify-content:flex-start;
+}
+.defensecardcomp {
+    display: flex;
+    margin-left:100px;
+}
+.compdeck {
+  text-align: right;
+}
+h3 {
+    font-size: 40px; 
+	font-weight: bolder;
+}
+#thumbnail {
+    background-color: #191970;
+    padding: 25px 0 40px; 
+    text-align: center;
+    font-family: Arial;
+}
+#rules {
+    margin-top: 30px;
+}
+#board-container{
+    margin:auto;
+    background-color:#A9A9A9;
+    font-size:25px;
+    padding:30px 30px;
+    text-align: center;
+}
+
+#startgame {
+	margin-top: 80px;
+	width: 150px;
+}
+
+footer {
+    font-family: fantasy;
+    color:#222;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 70px;
+    padding-left: 16px;
+    background-color: #A9A9A9;
+}
+#ingame-header {
+    background-color: #191970;
+    padding: 35px 0 40px; 
+    text-align: left;
+    font-family: bolder;
+    font-size: 28px; 
+}
+
+.playercount {
+    text-align: left;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.countinfo {
+    flex-direction: column;
+}
+.compcount {
+    padding-top: 70px;
+    padding-right: 7px;
+    text-align: left;
+    flex-direction: column;
+}
+.gameinfo {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.result {
+    padding-top: 40px;
+    padding-right: 60px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Card game</title>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="funcs.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="hs.css">
+    </head>
+    <body>
+        <div class="thumbnail" id="thumbnail">
+              <h1 class="animate__animated animate__fadeInRight">Hearthstone v2.0 </h1>
+              <h3 class="animate__animated animate__fadeInRight"> The best(and skilled) game in the world</h3>
+        </div>
+        <div id="ingame-header" style="display:none;">Hearthstone</div>
+        <div id="board-container">
+            <div id="description">
+            <div>This is new Hearthstone game where you can fight against the computer</div>
+            <div id="rules">Rules are simple.Each player has 20 cards.Each card has tier from 0 to 4.At the start of game both players takes 3 cards from the top of their deck called "defense"</div>
+            <div id="rules">Then attacking player take one card from top of his deck and choose which card from enemy defense he want to beat</div>
+            <div id="rules">Game continues until one of the players has any card in deck or when someone get  fixed value of penalty points</div>
+            <div><button id="startgame" onclick="start();">START GAME</button></div>
+            </div>
+            <div id="board" style="display:none;">
+                <div id="game" class="animate__animated animate__fadeInUp">
+                    
+                    <div class="table">
+                        <!-- <div class="playersdeck"><img src="img/cardcover.jpg" width="200" height="250"> </div> -->
+                        <div class="playercards">
+                            <div class="playersdeck"><img src="img/cardcover.jpg" width="200" height="250"> </div>
+                            <div class="attackingcardpl"></div>
+                            <div class="defensecardspl">
+                                <div class="defensecard1pl"></div>
+                                <div class="defensecard2pl"></div>
+                                <div class="defensecard3pl"></div>
+                            </div>
+                        </div>
+                        <div class="middle">
+                            <div class="gameinfo">           
+                                 <div class="countinfo">
+                                    <div class="playercount"></div>
+                                    <div class="compcount"></div>
+                                 </div>                
+                                <!-- <button class="turn" onclick="takecard();">Take Card</button> 
+                                      -->
+                                <button class="cointoss" onclick="tosscoin();">Toss a coin</button>
+                                <div class="result"></div>                         
+                                <!--<button class="cointoss" onclick="tosscoin();">Toss a coin</button> -->
+                                <button class="endturn">End Turn </button>
+                            </div>
+                        </div>
+                        <div class="compcards">
+                        <div class="compdeck"><img src="img/cardcover.jpg" width="200" height="250"></div>
+                        <div class="attackingcardcomp"></div>
+                        <div class="defensecardcomp">
+                            <div class="defensecard1comp"></div>
+                            <div class="defensecard2comp"></div>
+                            <div class="defensecard3comp"></div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <footer>
+            <div>Made for RELEX by wollohq</div>
+        </footer>         
+    </body>
+</html>
