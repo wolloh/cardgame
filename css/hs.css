@@ -65,8 +65,12 @@ h3 {
     text-align: center;
     font-family: Arial;
 }
+#description {
+    font-size: 30px;
+}
 #rules {
     margin-top: 30px;
+    /* font-size: 25px; */
 }
 #board-container{
     margin:auto;
@@ -80,14 +84,17 @@ h3 {
 	margin-top: 80px;
 	width: 150px;
 }
+h4{
+    margin-left: 20px;
+    font-size:30px
+}
 
 footer {
     font-family: fantasy;
     color:#222;
     text-align: center;
     font-size: 22px;
-    margin-top: 70px;
-    padding-left: 16px;
+    padding-left: 5px;
     background-color: #A9A9A9;
 }
 #ingame-header {
@@ -108,7 +115,7 @@ footer {
 }
 .player2count {
     padding-top: 70px;
-    padding-right: 7px;
+    padding-left: 17px;
     text-align: left;
     flex-direction: column;
 }
@@ -118,6 +125,7 @@ footer {
 }
 
 .result {
-    padding-top: 40px;
-    padding-right: 60px;
+    padding-top: 50px;
+    margin-left: 200px;
+    /* padding-right: 60px; */
 }
