@@ -308,7 +308,7 @@ function newturn(){
     //check if player already lost on start of his turn 
     endOfGame=checkEndOfGame()
     if(endOfGame ){
-        $(".result").html("Player"+(turn+1)+" lost")
+        $(".result").html("Player "+(turn+1)+" lost")
     }
     else{
     if(turn==1){
