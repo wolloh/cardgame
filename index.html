@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <title>Card game</title>
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="funcs.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-        <link rel="stylesheet" href="hs.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/funcs.js"></script>
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/hs.css">
     </head>
     <body>
         <div class="thumbnail" id="thumbnail">
@@ -27,20 +27,20 @@
                     
                     <div class="table">
                         <!-- <div class="playersdeck"><img src="img/cardcover.jpg" width="200" height="250"> </div> -->
-                        <div class="playercards">
-                            <div class="playersdeck"><img src="img/cardcover.jpg" width="200" height="250"> </div>
-                            <div class="attackingcardpl"></div>
-                            <div class="defensecardspl">
-                                <div class="defensecard1pl"></div>
-                                <div class="defensecard2pl"></div>
-                                <div class="defensecard3pl"></div>
+                        <div class="player1cards">
+                            <div class="player1deck"><img src="img/cardcover.jpg" width="200" height="250"> </div>
+                            <div class="attackingcardpl1"></div>
+                            <div class="defensecardspl1">
+                                <div class="defensecard1pl1"></div>
+                                <div class="defensecard2pl1"></div>
+                                <div class="defensecard3pl1"></div>
                             </div>
                         </div>
                         <div class="middle">
                             <div class="gameinfo">           
                                  <div class="countinfo">
-                                    <div class="playercount"></div>
-                                    <div class="compcount"></div>
+                                    <div class="player1count"></div>
+                                    <div class="player2count"></div>
                                  </div>                
                                 <!-- <button class="turn" onclick="takecard();">Take Card</button> 
                                       -->
@@ -50,13 +50,13 @@
                                 <button class="endturn">End Turn </button>
                             </div>
                         </div>
-                        <div class="compcards">
-                        <div class="compdeck"><img src="img/cardcover.jpg" width="200" height="250"></div>
-                        <div class="attackingcardcomp"></div>
-                        <div class="defensecardcomp">
-                            <div class="defensecard1comp"></div>
-                            <div class="defensecard2comp"></div>
-                            <div class="defensecard3comp"></div>
+                        <div class="player2cards">
+                        <div class="player2deck"><img src="img/cardcover.jpg" width="200" height="250"></div>
+                        <div class="attackingcardpl2"></div>
+                        <div class="defensecardspl2">
+                            <div class="defensecard1pl2"></div>
+                            <div class="defensecard2pl2"></div>
+                            <div class="defensecard3pl2"></div>
                         </div>
                         </div>
                     </div>

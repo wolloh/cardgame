@@ -1,4 +1,3 @@
-
 player1deck=[],player2deck=[]
 player1defense=[],player2defense=[]
 const fixedpenaltyvalue=3

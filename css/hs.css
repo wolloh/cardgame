@@ -1,4 +1,3 @@
-
 body {
     background-color:#A9A9A9;  
     margin: 0; 
@@ -25,35 +24,35 @@ h1 {
 img {
     object-fit:contain;
 }
-.playersdeck {
+.player1deck {
     text-align: left;
 }
-.playercards {
+.player1cards {
 display: flex;
 }
-.defensecardspl {
+.defensecardspl1 {
     display: flex;
     margin-left:100px;
 }
-.attackingcardpl {
+.attackingcardpl1 {
     margin-left: 40px;
     width: 200px;
     height: 250px;
 }
-.attackingcardcomp{
+.attackingcardpl2{
     margin-left: 40px;
     width: 200px;
     height: 250px;
 }
-.compcards {
+.player2cards {
     display: flex;
     justify-content:flex-start;
 }
-.defensecardcomp {
+.defensecardspl2 {
     display: flex;
     margin-left:100px;
 }
-.compdeck {
+.player2deck {
   text-align: right;
 }
 h3 {
@@ -99,7 +98,7 @@ footer {
     font-size: 28px; 
 }
 
-.playercount {
+.player1count {
     text-align: left;
     flex-direction: column;
     padding-left: 20px;
@@ -107,7 +106,7 @@ footer {
 .countinfo {
     flex-direction: column;
 }
-.compcount {
+.player2count {
     padding-top: 70px;
     padding-right: 7px;
     text-align: left;
